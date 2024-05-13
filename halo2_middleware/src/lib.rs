@@ -8,3 +8,6 @@ pub mod shuffle;
 pub mod zal;
 
 pub use ff;
+
+pub mod device;
+pub use device::*;

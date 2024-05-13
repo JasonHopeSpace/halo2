@@ -30,6 +30,11 @@ halo2curves = { version = "0.6.0", default-features = false }
 serde = { version = "1", optional = true, features = ["derive"] }
 serde_derive = { version = "1", optional = true}
 rayon = "1.8"
+ark-std = { version = "0.3", features = ["print-trace"] }
+libc="0.2"
+panda = { git = "https://github.com/JasonHopeSpace/panda.git" }
+lazy_static = "1.4.0"
+group = "0.13"
 
 [dev-dependencies]
 ark-std = { version = "0.3" }
